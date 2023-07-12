@@ -30,7 +30,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={{fontSize:25,fontWeight:'800'}}>หน้าเเสดงกราฟของการลงทุน</Text>
+      <Text style={{fontSize:25,fontWeight:'800'}}>หน้าเเสดงกราฟของการลงทุนDEMO</Text>
       {data.length > 0 ? (
         <VictoryChart
           theme={VictoryTheme.grayscale}
